@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/liuyuhui2012/spring-cloud-config-git/
+          search-paths: config-repo
+          username: liuyuhui2012
+          password: 880505Liuyuhui
